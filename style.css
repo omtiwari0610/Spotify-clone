@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+.navbar ul{
+    list-style-type: none;
+    
+    display:flex;
+    background-color: black;
+    color:white;
+    width:100vw;
+    align-items: center; 
+    
+    font-size: larger;
+    height:10vh;
+}
+.navbar ul li{
+padding:0px 5px 0px 50px;
+}
+.navbar ul img{   
+    height:5vh;
+    width:3vw; 
+    font-weight: bolder; 
+    margin-right: 1vw;
+}
+.container{
+    min-height:100vh;
+    width: 70vw;
+    position: relative;
+    margin:10vh 15vw 10vh 15vw; 
+    background-image: url(bg.jpg);
+    border-radius: 2%;
+    color:white;
+    display: flex;
+    /* justify-content: center; */
+    
+}
+#top{
+    position: relative;
+    top:5vh;
+    left:5vw;
+    display: block;
+    
+    width:60vw;
+}
+.bottom{
+    background-color: black;
+    height:15vh;
+    position: sticky;
+    bottom: 0;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.fa-solid fa-play{
+    
+    display: inline-block;
+    width: 10vw;
+    position: relative;
+    /* bottom: 0vh; */
+    top:100vh;
+}
+#pb{
+    width:80vw;
+    cursor: pointer;
+   
+}
+.icons{
+margin-top: 2vh;
+cursor: pointer;
+}
+.songcontainer{
+    height:80vh;
+    width:50vw;
+    color:white;
+    margin-top: 12vh;
+    margin-left: 5vw;
+    /* position: relative; */
+    
+}
+.items{
+    background-color: white;
+    height:10vh;
+    width:50vw;
+    border-radius: 20px;
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.items img{
+    height: 8vh;
+    width:10vw;
+    border-radius: 50%;
+    margin-right: 5vw;
+    position: static;
+}
+.name{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    /* margin-right: 15vw; */
+}
+.time{
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right:2vw;
+    
+}
+i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    bottom:5vh;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
